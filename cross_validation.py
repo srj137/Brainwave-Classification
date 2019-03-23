@@ -29,9 +29,9 @@ cvscores_train = []
 test_index=[]
 wrong_index=[]
 ypred_index=[]
-batch_size=40
+batch_size=128
 no_epochs=100
-
+###Checking if imported network is correct or not
 if net_name=='CNN1D':
     model=networks.get_1Dmodel(net_type)
     model.summary()
