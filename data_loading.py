@@ -8,9 +8,6 @@ Created on Thu Mar 21 19:48:17 2019
 from scipy import io
 import numpy as np
 import h5py 
-import os
-
-os.chdir('D:\Swap\Mizzou\Research\Thesis Programs')
 
 def get_2Ddata(data_name,data_type):
     ##loading data from a .mat files
