@@ -5,7 +5,7 @@
 
 clc; clear; close all;
 rng(21);
-scalFac = 0.6; % Scaling factor  
+scalFac = 0.6; % Scaling factor (Increase to increase noise level)
 %% Synthetic data
 sigDT = 0.001; %time step
 chanNum = 15; %number of channels
