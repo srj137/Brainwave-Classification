@@ -18,7 +18,6 @@ import itertools
 def plot_confusion_matrix(cm,classes,title='Confusion matrix',cmap=plt.cm.Blues):
     """
     This function prints and plots the confusion matrix.
-    Normalization can be applied by setting `normalize=True`.
     """
     x_classes=classes+ ['Recall']
     y_classes=classes+ ['Precision']
